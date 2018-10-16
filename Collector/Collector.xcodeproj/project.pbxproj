@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		90BAC85321752922001CADEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC85221752922001CADEF /* AppDelegate.swift */; };
-		90BAC85521752922001CADEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC85421752922001CADEF /* ViewController.swift */; };
 		90BAC85821752922001CADEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BAC85621752922001CADEF /* Main.storyboard */; };
 		90BAC85B21752922001CADEF /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC85921752922001CADEF /* Collector.xcdatamodeld */; };
 		90BAC85D21752923001CADEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BAC85C21752923001CADEF /* Assets.xcassets */; };
 		90BAC86021752923001CADEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BAC85E21752923001CADEF /* LaunchScreen.storyboard */; };
+		90BAC86921753055001CADEF /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC86821753055001CADEF /* MainTVC.swift */; };
+		90BAC86B217530F6001CADEF /* CollectedItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC86A217530F6001CADEF /* CollectedItemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90BAC84F21752922001CADEF /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BAC85221752922001CADEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90BAC85421752922001CADEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90BAC85721752922001CADEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90BAC85A21752922001CADEF /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		90BAC85C21752923001CADEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BAC85F21752923001CADEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BAC86121752923001CADEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BAC86821753055001CADEF /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		90BAC86A217530F6001CADEF /* CollectedItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectedItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,8 @@
 		90BAC85121752922001CADEF /* Collector */ = {
 			isa = PBXGroup;
 			children = (
+				90BAC86721753037001CADEF /* Controller */,
 				90BAC85221752922001CADEF /* AppDelegate.swift */,
-				90BAC85421752922001CADEF /* ViewController.swift */,
 				90BAC85621752922001CADEF /* Main.storyboard */,
 				90BAC85C21752923001CADEF /* Assets.xcassets */,
 				90BAC85E21752923001CADEF /* LaunchScreen.storyboard */,
@@ -65,6 +67,15 @@
 				90BAC85921752922001CADEF /* Collector.xcdatamodeld */,
 			);
 			path = Collector;
+			sourceTree = "<group>";
+		};
+		90BAC86721753037001CADEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90BAC86821753055001CADEF /* MainTVC.swift */,
+				90BAC86A217530F6001CADEF /* CollectedItemVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BAC85B21752922001CADEF /* Collector.xcdatamodeld in Sources */,
-				90BAC85521752922001CADEF /* ViewController.swift in Sources */,
+				90BAC86921753055001CADEF /* MainTVC.swift in Sources */,
 				90BAC85321752922001CADEF /* AppDelegate.swift in Sources */,
+				90BAC86B217530F6001CADEF /* CollectedItemVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
